@@ -17,12 +17,17 @@ and give you this prompt
 
 don't worry just type in any name and press the enter key.
 
-New User Registration: URL - http://localhost:8000/api/registerHTTP Type: POST
+New User Registration: 
+
+URL - http://localhost:8000/api/registerHTTP 
+Type: POST
 Parameters:name:test
 email:test@test.com
 password:testtest
 password_confirmation:testtest
+
 User Login:
+
 URL - http://localhost:8000/api/loginHTTP TYPE: POST
 Parameters:email:test@test.com
 password:testtest
@@ -32,8 +37,13 @@ Login api will return token,
 Copy that token to under authorization tab select Bearer Token And paste token and save it
 
 New Incidents Creation:
-URL: http://localhost:8000/api/incidentHTTP TYPE: POST
-Parameters:Underbody select raw option at the end select JSON. Paste below JSON{
+
+URL: http://localhost:8000/api/incidentHTTP 
+TYPE: POST
+Parameters:
+Underbody select raw option at the end select JSON.
+Paste below JSON
+{
 "data": [
 {
 "id": 0,
@@ -64,5 +74,7 @@ Parameters:Underbody select raw option at the end select JSON. Paste below JSON{
 }
 ]
 }
+
 Get Incidents:
-URL: http://localhost:8000/api/incidentHTTP Method : GET
+URL: http://localhost:8000/api/incident
+HTTP Method : GET
