@@ -11,6 +11,8 @@ Run the following command to migrate your database
 
 php artisan passport:install
 
+php artisan serve
+
 and give you this prompt
 
 "What should we name the personal access client? [Artisan Personal Access Client]:"
