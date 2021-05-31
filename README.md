@@ -9,7 +9,7 @@ Run the following command to migrate your database
 
 "php artisan migrate"
 
-php artisan passport:client --personal
+php artisan passport:install
 
 and give you this prompt
 
